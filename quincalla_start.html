@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]> <html class="no-js"> <![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quincalla_start</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+<!--     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage'],
+				slidesNavigation: true,
+// 				menu: '#menu'
+			});
+		});
+	</script>
+<!-- 				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'], -->
+</head>
+
+
+<body>
+<!--[if lt IE 7]>
+	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!--<ul id="menu">
+<li data-menuanchor="firstPage"><a href="#firstPage">Hey!</a></li>
+<li data-menuanchor="firstPage"><a href="#firstPage">Canciones</a></li>
+<li data-menuanchor="firstPage"><a href="#firstPage">Arte</a></li>
+<li data-menuanchor="firstPage"><a href="#firstPage">Nosotros</a></li>
+<li data-menuanchor="secondPage"><a href="#secondPage">Extras</a></li>
+</ul>-->
+<!--<li data-menuanchor="Hey"><a href="#main/1">Hey!</a></li>
+<li data-menuanchor="Canciones"><a href="#main/2">Canciones</a></li>
+<li data-menuanchor="Arte"><a href="#main/3">Arte</a></li>
+<li data-menuanchor="About"><a href="#main/4">Sobre la banda</a></li>-->
+
+<div id="fullpage">
+
+	<div class="section" id="section0">
+<!--		<header>
+			<h3>Pagina oficial de la banda venezolana Quincalla</h3>
+		</header>-->
+		<div class="slide" data-anchor="slide1">
+			<div id="backg">
+				<div id="content">
+				<h3>HEY!!!!</h3>
+				</div>
+			</div>
+		</div>
+		<div class="slide" data-anchor="slide2">
+			<div id="backg">
+				<div id="content">
+				<h3>Canciones</h3>
+				</div>
+			</div>
+		</div>
+		<div class="slide" data-anchor="slide3">
+			<div id="backg">
+				<div id="content">
+				<h3>Arte</h3>
+				</div>
+			</div>
+		<div class="slide" data-anchor="slide4">
+			<div id="backg">
+				<div id="content">
+				<h3>Nosotros</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="section" id="section1">
+	<h3>EXTRAS!!</h3>
+	</div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+</div>
+</body>
+</html>
